@@ -1,5 +1,5 @@
 
--module(eunit_to_fsm_sup).
+-module(eunit_viz_sup).
 
 -behaviour(supervisor).
 

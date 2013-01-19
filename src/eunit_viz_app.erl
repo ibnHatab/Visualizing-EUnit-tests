@@ -1,4 +1,4 @@
--module(eunit_to_fsm_app).
+-module(eunit_viz_app).
 
 -behaviour(application).
 
@@ -10,7 +10,7 @@
 %% ===================================================================
 
 start(_StartType, _StartArgs) ->
-    eunit_to_fsm_sup:start_link().
+    eunit_viz_sup:start_link().
 
 stop(_State) ->
     ok.

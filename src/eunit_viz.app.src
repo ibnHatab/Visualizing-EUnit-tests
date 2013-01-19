@@ -1,4 +1,4 @@
-{application, eunit_to_fsm,
+{application, eunit_viz,
  [
   {description, ""},
   {vsn, "1"},
@@ -7,6 +7,6 @@
                   kernel,
                   stdlib
                  ]},
-  {mod, { eunit_to_fsm_app, []}},
+  {mod, { eunit_viz_app, []}},
   {env, []}
  ]}.
